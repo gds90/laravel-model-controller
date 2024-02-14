@@ -9,16 +9,22 @@
 
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Styles -->
     @vite('resources/js/app.js')
 
 </head>
 
 <body>
-    <main class="vh-100 pt-3 bg-dark ">
+    {{-- Includo l'header contenuto in partials  --}}
+    @include('partials.header')
+    <main class="pt-3 bg-dark">
         @yield('content')
     </main>
+    {{-- Includo il footer contenuto in partials  --}}
+    @include('partials.footer')
 </body>
 
 </html>
