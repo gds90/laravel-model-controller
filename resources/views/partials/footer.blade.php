@@ -1,6 +1,3 @@
-<!-- Remove the container if you want to extend the Footer to full width. -->
-
-
 <footer class="bg-dark text-center text-white">
     <!-- Grid container -->
     <div class="container p-4 pb-0">
@@ -41,4 +38,3 @@
     </div>
     <!-- Copyright -->
 </footer>
-<!-- End of .container -->
