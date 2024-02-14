@@ -19,6 +19,7 @@ class PageController extends Controller
     public function show($id)
     {
         $movies = Movie::all();
+        // Funzione che cerca il film con l'id passato come parametro di funzione
         $movie = $movies->find($id);
 
         return view('show_details', compact('movie'));
