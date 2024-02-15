@@ -6,7 +6,7 @@
         <div class="row justify-content-center">
             {{-- Ciclo l'array dei film e mostro una card per ogni film contenuto nel db, con titolo, titolo originale e un bottone che rimanda ai dettagli del film  --}}
             @foreach ($movies as $movie)
-                <div class="col-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="card my-3">
                         <div class="card-header text-center ">
                             {{ $movie->title }}

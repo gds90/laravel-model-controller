@@ -3,9 +3,9 @@
 namespace App\Http\Controllers\Guest;
 
 use App\Http\Controllers\Controller;
-use App\Models\Movie; // importo il modello Movie
 use Illuminate\Http\Request;
 
+use App\Models\Movie; // importo il modello Movie
 class PageController extends Controller
 {
     public function index()
